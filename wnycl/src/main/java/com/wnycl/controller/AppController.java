@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 import com.wnycl.model.User;
+import com.wnycl.service.TeamService;
 import com.wnycl.service.UserService;
 
 
@@ -36,6 +37,9 @@ public class AppController {
 
 	@Autowired
 	UserService userService;
+	
+	@Autowired
+	TeamService teamService;
 	
 	
 	
@@ -54,7 +58,8 @@ public class AppController {
 		//List<User> users = userService.findAllUsers();
 		//model.addAttribute("users", users);
 		//model.addAttribute("loggedinuser", getPrincipal());
-		return "index";
+		model.addAttribute("teams", teamService.findAllTeams());
+		return "home";
 	}
 	
 	/**
