@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService{
 
 	public void saveUser(User user) {
 		//user.setPassword(passwordEncoder.encode(user.getPassword()));
-		user.setPassword(user.getPassword());
+		//user.setPassword(user.getPassword());
 		dao.save(user);
 	}
 

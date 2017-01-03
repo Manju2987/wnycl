@@ -1,10 +1,15 @@
 com\wnycl\configuration\AppInitializer.class
 com\wnycl\dao\AbstractDao.class
+com\wnycl\model\Team.class
+com\wnycl\dao\TeamDaoImpl.class
+com\wnycl\service\TeamServiceImpl.class
 com\wnycl\dao\UserDao.class
+com\wnycl\dao\TeamDao.class
 com\wnycl\configuration\AppConfig.class
 com\wnycl\dao\UserDaoImpl.class
 com\wnycl\controller\AppController.class
 com\wnycl\configuration\HibernateConfiguration.class
 com\wnycl\model\User.class
+com\wnycl\service\TeamService.class
 com\wnycl\service\UserServiceImpl.class
 com\wnycl\service\UserService.class

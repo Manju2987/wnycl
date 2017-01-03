@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ page isELIgnored="false" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<title>Free CSS template by ChocoTemplates.com</title>
+	<title>WNYCL</title>
 	<link rel="stylesheet" href="<c:url value='/css/style.css' />" type="text/css" media="all" />
 	<!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
 </head>
@@ -13,7 +13,7 @@
 	<div id="header">
 		<div class="shell">
 			<!-- Logo -->
-			<h1 id="logo" class="notext"><a href="#">Sport Zone Sport Portal</a></h1>
+			<h1 id="logo" class="notext"><a href="#">Western New York Cricket League</a></h1>
 			<!-- End Logo -->
 		</div>
 	</div>
@@ -25,8 +25,8 @@
 			<div class="cl">&nbsp;</div>
 			<ul>
 			    <li><a href="#">news &amp; events</a></li>
-			    <li><a href="#">photo gallery</a></li>
-			    <li><a href="#">video gallery</a></li>
+			    <li><a href="#">gallery</a></li>
+			    <li><a href="#">Teams</a></li>
 			    <li><a href="#">community</a></li>
 			    <li><a href="#">schedules</a></li>
 			</ul>
